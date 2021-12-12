@@ -21,6 +21,9 @@ class MyApp extends StatelessWidget {
                 Fluttertoast.showToast(
                     msg: 'It is a toast',
                     toastLength: Toast.LENGTH_LONG,
+                  fontSize: 34,
+                  backgroundColor: Colors.blue,
+                  textColor: Colors.yellowAccent
                 );
               },
             color: Colors.teal,
